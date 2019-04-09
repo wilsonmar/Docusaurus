@@ -23,11 +23,13 @@ function DocBody(props) {
 
   return (
     <div className={styles.docBody}>
-      <div className="container margin-bottom-xl">
+      <div className="container padding-vert-xl">
         <div className="row">
-          <div className="col col-8 col-offset-2">
-            <h1 className="margin-vert-xl">{metadata.title}</h1>
-            <DocContents />
+          <div className="col col-10 col-offset-1">
+            <div className={styles.docPage}>
+              <h1 className="margin-vert-xl">{metadata.title}</h1>
+              <DocContents />
+            </div>
             <div className="margin-vert-xl">
               <DocsPaginator />
             </div>

@@ -6,6 +6,7 @@
  */
 
 .sidebar {
+  background-color: var(--color-white);
   border-right: 1px solid #dadde1;
   bottom: 0;
   box-sizing: border-box;

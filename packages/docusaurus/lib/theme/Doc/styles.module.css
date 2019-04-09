@@ -6,6 +6,7 @@
  */
 
 .mainContainer {
+  background-color: var(--color-secondary-light);
   padding-left: 20rem;
 }
 

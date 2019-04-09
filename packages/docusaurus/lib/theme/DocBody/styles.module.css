@@ -8,3 +8,9 @@
 .docBody {
   min-height: calc(100vh - 50px);
 }
+
+.docPage {
+  background-color: var(--color-white);
+  box-shadow: 0 1px 4px rgba(32, 32, 32, .05);
+  padding: 40px 100px;
+}
